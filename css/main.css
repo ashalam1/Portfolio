@@ -1,0 +1,314 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*-----------------Utility-classes------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hover-links {
+    color: black;
+    transition: .2s ease-out;
+}
+
+.hover-links:hover {
+    color: rgb(175, 174, 175);
+    text-decoration: underline;
+}
+
+.purple {
+    color: rgb(76, 76, 244);
+}
+
+
+/*----------------------Navbar----------------*/
+
+.container {
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-nav {
+    justify-content: space-between;
+    position: sticky;
+    overflow: hidden;
+}
+
+.nav-link ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: end;
+    font-size: 20px;
+}
+
+.nav-link {
+    padding: 20px;
+}
+
+.logo img {
+    height: 40px;
+    width: 50px;
+    margin: 2px 3px;
+}
+
+/*---------------------header-section----------------------*/
+.header-section {
+    justify-content: space-between;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0;
+    margin-left: 30px;
+}
+
+.left-section {
+    color: black;
+    width: 600px;
+    font-size: 2.4rem;
+    padding-left: 10px;
+    margin-left: 50px;
+    justify-content: center;
+}
+
+.name img {
+    width: 60px;
+    margin-top: 10px;
+}
+
+.name {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+.heading {
+    text-align: center;
+    margin-block: 30px;
+    font-size: 1.5rem;
+}
+
+.primary-button {
+    background-color: #000000;
+    border: 0.1px solid black;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.primary-button:hover {
+    background-color: white;
+    border: 0.1px solid black;
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.secondary-button {
+    border: 0.5px solid black;
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.secondary-button:hover {
+    background-color: #000000;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.bold-heading {
+    font-size: 4rem;
+    font-style: bold;
+}
+
+.btn {
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.right-section img {
+    width: 400px;
+    padding-top: 30px;
+    padding-right: 100px;
+}
+
+/* #element {
+    color: purple;
+} */
+
+/*------------------- portfolio section------------------*/
+
+
+.card-container {
+    justify-content: center;
+    margin: 20px;
+
+}
+
+.card img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.card-round img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    width: 30%;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+/* ----------------------fun-section------------------- */
+.fun {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgb(201, 199, 204);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 100px;
+    margin-top: 150px;
+    padding: 30px 0;
+}
+
+.placeholder {
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.buttons {
+    gap: 10px;
+}
+
+
+
+/*-------------------------skill-section--------------------- */
+.skills {
+    margin: 70px 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skill-section {
+    justify-content: space-around;
+}
+
+/* ---------------------education-section-------------------- */
+.education {
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.edu {
+    font-size: 1.6rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.edu p {
+    font-size: 1.2rem;
+}
+
+/*---------------------contact-section---------------------*/
+.contact {
+    margin: 100px;
+}
+
+.contacts {
+    justify-content: space-between;
+}
+.contacts img{
+    width: 80px;
+}
+.card2-container {
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 280px;
+    height: 300px;
+}
+
+.card2-container p {
+    font-size: 1rem;
+}
+
+.contact-form {
+    margin-top: 80px;
+}
+
+.contact-form img {
+    background-color: rgb(201, 199, 204);
+    width: 80%;
+}
+
+.form {
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+
+.contact-img {
+    width: 50%;
+}
+
+#form-placeholder {
+    padding: 5px;
+    width: 553px;
+}
+
+/*---------------------------footer----------------------- */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(201, 199, 204);
+}
+
+/* ---------------Game.html */
+.game{
+    flex-direction: column;
+    text-align: center;
+    line-height: 3em;
+    margin: 100px 50px;
+    padding: 40px 0;
+    background-color: rgb(201, 199, 204);
+}
+    

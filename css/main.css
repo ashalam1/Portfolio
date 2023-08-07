@@ -200,7 +200,7 @@ a {
     text-align: center;
     justify-content: center;
     gap: 10px;
-    background-color: rgb(201, 199, 204);
+    /* background-color: rgb(201, 199, 204); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 100px;
     margin-top: 150px;
@@ -303,12 +303,3 @@ a {
 }
 
 /* ---------------Game.html */
-.game{
-    flex-direction: column;
-    text-align: center;
-    line-height: 3em;
-    margin: 100px 50px;
-    padding: 40px 0;
-    background-color: rgb(201, 199, 204);
-}
-    

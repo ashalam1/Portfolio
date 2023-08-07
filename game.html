@@ -5,31 +5,31 @@
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="css/main.css">
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
-    </style>
+    <link rel="stylesheet" href="css/game.css">
 
 </head>
 
 <body>
-    <div class="game flex">
-        <h1>Rock, Paper, Scissors</h1>
-        <p>Select either Rock, Paper, or Scissors and see if you can beat the computer!</p>
-        <p><strong>Remember:</strong> “Rock breaks Scissors, Scissors cuts Paper, Paper covers rock.” </p>
-        <div class='score'>
+    <div class="main">
+        <div class="game flex">
+            <h1>Rock, Paper, Scissors</h1>
+            <p>Select either Rock, Paper, or Scissors and see if you can beat the computer!</p>
+            <p><strong>Remember:</strong> “Rock breaks Scissors, Scissors cuts Paper, Paper covers rock.” </p>
+            <div class='score'>
+
+            </div>
+            <div class='message'>
+
+            </div>
+            <div class="btn flex">
+                <button class="secondary-button" type='button'>Rock</button>
+                <button class="primary-button" type='button'>Paper</button>
+                <button class="secondary-button" type='button'>Scissors</button>
+            </div>
 
         </div>
-        <div class='message'>
-
-        </div>
-        <div class="btn flex">
-            <button class="secondary-button" type='button'>Rock</button>
-            <button class="primary-button" type='button'>Paper</button>
-            <button class="secondary-button" type='button'>Scissors</button>
-        </div>
-
     </div>
+
 
     <script>
         const message = document.querySelector('.message');

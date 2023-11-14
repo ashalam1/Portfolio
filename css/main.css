@@ -86,14 +86,10 @@ a {
     justify-content: center;
 }
 
-.name img {
-    width: 60px;
-    margin-top: 10px;
-}
 
 .name {
-    text-align: center;
-    margin-top: 40px;
+    text-align: start;
+    margin-top: 10px;
 }
 
 .about p {
@@ -154,9 +150,11 @@ a {
 }
 
 .right-section img {
+    background-color: rgb(201, 199, 204);
     width: 400px;
     padding-top: 30px;
-    padding-right: 100px;
+    padding-right: 15px;
+    padding-left: 20px;
 }
 
 /* #element {

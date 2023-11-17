@@ -15,7 +15,8 @@
 <body>
     <nav id="nav">
         <div class="container main-nav flex">
-            <a id="logo" class="logo"><img src="images/coding-icon-png-6.jpg" alt=""></a>
+            <div class="tag flex"><a href="#header-section">Ashfaque Alam</a></div>
+            <div class="colon flex">|</div>
             <div class="nav-link flex">
                 <ul class="flex">
                     <li><a href="#header-section" class="hover-links">Home</a></li>
@@ -24,15 +25,18 @@
                     <li><a href="#contact" class="hover-links">Contact</a></li>
                 </ul>
             </div>
+            <a href="#contact-form" class="right-box"> Let's talk <img src="images/right-arrow-icon.png" alt=""></a>
+ 
         </div>
+        
     </nav>
 
     <!-----------------------------header-section------------------------>
     <header>
-        <div class="header-section flex">
+        <div class="header-section flex" id="header-section">
             <div class="left-section">
-                <div class="name">
-                    Hey there! My name is  Ashfaque Alam
+                <div class="name" >
+                    Hey there! I am  Ashfaque Alam
                 </div>
                 <div class="about">
                     <p>Welcome to my portfolio! I'm an enthusiastic web developer with a burgeoning skill set, eager to contribute to innovative projects that foster global connectivity. Despite being at a beginner's level, I've already embarked on diverse and engaging endeavors. Below, you'll find a curated collection of my work.</p>
@@ -53,8 +57,47 @@
         </div>
     </header>
     <!---------------------portfolio section----------------------->
+    <section class="project-section ">
+        <img src="images/assets (6)/asset 2.svg" alt="">
+        <div class="heading">
+            <h2>Project</h2>
+        </div>
+        <div class="project flex">
+            <div class="project-box ">
+                <h4>HTML, CSS, JavaScript, Node.js, Express.js, MongoDB</h4>
+                <h3>TRAVEL PLANNER</h3>
+                <p>Developed a web-based travel planning platform offering budget-friendly trip itineraries to unexplored local tourist
+                    destinations through crowd-sourced information. The platform enables reservations for transportation, day tours,
+                    accommodation, and ticketing.</p>
+            </div>
+
+            <div class="project-box ">
+                <h4>HTML, CSS, Bootstraps</h4>
+                <h3>WEBSITE CLONE: USABILITYHUB-CLONE</h3>
+                <p>Developed a clone website of usabilityhub which is a remote user research platform that takes the guesswork out of design
+                    decisions by validating them with real users.</p>
+            </div>
+
+            <div class="project-box ">
+                <h4>Cadence Virtuoso</h4>
+                <h3>DESIGN OF MODIFIED 8 BIT SEMIFLASH ADC | </h3>
+                <p>
+                    This project presents a significant innovation in the field of analog-to-digital conversion an 8-bit semi-flash Analogto-Digital Converter (ADC) that achieves a substantial reduction in the number of comparators while maintaining
+                    the same high-speed performance as a full ADC.</p>
+            </div>
+
+            <div class="project-box ">
+                <h4>Arduino, Relay, Bluetooth</h4>
+                <h3>Home Automation System</h3>
+                <p>
+                    The aim of this project is to develop and design a home automation system using Arduino with a Bluetooth module,
+                    allowing users to control home appliances through an Android phone using voice commands. By integrating voice recognition technology, the user can simply speak commands to control lights, fans, and other devices.</p>
+            </div>
+        </div>
+    </section>
 
     <section id="portfolio" class="portfolio-section ">
+
         <div class="heading">
             <h2>Portfolio</h2>
         </div>
@@ -71,73 +114,88 @@
                 <div class="card-round"><img src="images/Rock-Paper-Scissors-game-1.png" alt=""></div>
                 <h3>Rock Paper Scissor</h3>
                 <p>Rock,paper&scissor game written in HTML, CSS, JS</p>
-                <a href="game.html" class="primary-button">Try it out</a>
+                <a href="game.html" target="_blank" rel="noopener noreferrer"  class="primary-button">Try it out</a>
 
             </div>
             <div class="card flex">
                 <div class="card-round"><img src="images/Screenshot 2023-07-27 104814.jpg" alt=""></div>
                 <h3>GitHub</h3>
                 <p>Take a look at my other projects on GitHub</p>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="primary-button">Go to my
+                <a href="https://github.com/ashalam1" target="_blank" rel="noopener noreferrer" class="primary-button">Go to my
                     GitHub</a>
             </div>
         </div>
     </section>
 
-    <!-------------------fun-section------------------->
-
-    <section  class="fun flex">
-        <h1>Lame Joke Generator</h1>
-        <p>Enter an animal name and a plant name to get a lame joke!</p>
-        <!-- <label for="animalName"></label> -->
-        <input class="placeholder" type="text" placeholder="Enter a name of animal" id="animalName">
-        <!-- <label for="plantName"></label> -->
-        <input class="placeholder" type="text" placeholder="Enter a name of a plant" id="plantName">
-        <p id="jokeOutput"></p>
-        <div class="buttons">
-            <button class="secondary-button" onclick="resetFields()">Reset</button>
-            <button class="primary-button" onclick="generateJoke()">Generate Joke</button>
-        </div>
-
-    </section>
+   
 
     <!--------------------skill-section------------------------->
 
     <section id="skills" class="skills">
+        <img src="images/assets (6)/asset 3.svg" alt="">
         <div class="heading">
-            <h2>Skill Summary</h2>
+            <h2>Skills & Technologies</h2>
         </div>
-        <div class="skill-section">
-            <p> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c"
-                        width="40" height="40" /> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"
-                    rel="noreferrer"> <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
-                        alt="cplusplus" width="40" height="40" /> </a> <a href="https://www.w3.org/html/"
-                    target="_blank" rel="noreferrer"> <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-                        alt="html5" width="40" height="40" /> </a><a href="https://www.w3schools.com/css/"
-                    target="_blank" rel="noreferrer"> <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-                        alt="css3" width="40" height="40" /> </a> <a href="https://getbootstrap.com" target="_blank"
-                    rel="noreferrer"> <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
-                        alt="bootstrap" width="40" height="40" /> </a> <a
-                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-                        alt="javascript" width="40" height="40" /><a href="https://reactjs.org/" target="_blank"
-                        rel="noreferrer"> <img
-                            src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
-                            alt="react" width="40" height="40" /> </a> </a> <a href="https://www.mongodb.com/"
-                    target="_blank" rel="noreferrer"> <img
-                        src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-                        alt="mongodb" width="40" height="40" /> </a> </p>
+        <div class="skill-section flex">
+            <div class="skill ">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                C
+            </div>
+
+            <div class="skill ">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                C++
+            </div>
+
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                Data Structure and Algorithm
+            </div>
+
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+            HTML5
+            </div>
+
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+            CSS
+            </div>
+
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                Java Script
+            </div>
+
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                Bootstrap
+            </div>
+
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                MySQL
+            </div>
+
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                Git/Github
+            </div>
+            
+            <div class="skill">
+                <img src="images/assets (6)/asset 4.svg" alt="">
+                MS Word
+            </div>
+
+
+
 
         </div>
     </section>
 
     <!-------------------Education-section---------------------->
     <section class="edu flex">
+        <img src="images/assets (6)/asset 5.svg" alt="">
         <div class="heading">
             <h2>Education</h2>
         </div>
@@ -149,8 +207,9 @@
     </section>
 
     <!-----------------------contact-section------------------>
-    <section class="contact">
-        <div class="heading" id="contact">
+    <section class="contact flex" id="contact">
+        <img src="images/contact-icon-png-4068.png" alt="">
+        <div class="heading" >
             <h2>Contact Me</h2>
             <br>
             <div class="contacts flex">
@@ -175,29 +234,34 @@
                     <p><a href="mailto:ashfaquealam154@gmail.com">ashfaquealam154@gmail.com</a></p>
                 </div>
             </div>
-<div class="contact-form flex">
-    <div class="contact-img"><img src="images/IMG_20230513_114414-fotor-bg-remover-2023080304621.png" alt=""></div>
-    <form action="https://formsubmit.co/ashfu154@gmail.com" method="POST" class="form flex">
-        <input type="text" name="" id="form-placeholder" placeholder="Your Name" required>
-        <input type="text" name="" id="form-placeholder" placeholder="Your Email" required>
-        <input type="text" name="" id="form-placeholder" placeholder="Subject" required>
-        <textarea name="" id="" cols="75" rows="10" placeholder="Message"></textarea>
+
+            
+<div class="contact-form flex" id="contact-form">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31113.519926899844!2d77.6206220101186!3d12.895501624933344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14bc1f875dd5%3A0x2b126387f21954a7!2sGarvebhavi%20Palya%2C%20Bengaluru%2C%20Karnataka%20560068!5e0!3m2!1sen!2sin!4v1700231426045!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    <form action="https://formsubmit.co/f63636695c3c325136997e30478177c1" method="POST" class="form flex">
+        <h2>Say what you want</h2>
+    <p> Looking forward to connecting and collaborating on exciting projects!</p>
+        <input type="text" name="name" id="form-placeholder" placeholder="Your Name" required>
+        <input type="email" name="email" id="form-placeholder" placeholder="Your Email" required>
+        <textarea name="message" id="" cols="75" rows="7" placeholder="Message"></textarea>
         <button class="primary-button">Submit</button>
     </form>
+    
 </div>
             
     </section>
 
     <footer>
-        <div class="footer">
-            Copyright &copy;2023 Ashfaque Alam
-            <br>
-            <a href="https://linkedin.com/in/ashfaquealam154" target="blank"><img align="center"
-                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-                    alt="ashfaque alam" height="20" width="30" /></a>
-            <a href="https://instagram.com/ash_alam005" target="blank"><img align="center"
-                    src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-                    alt="ash_alam005" height="20" width="30" /></a>
+        <div class="footer-main  flex">
+            <ul class="footer_list flex" >
+                <li><a href="https://github.com/ashalam1 " target="blank" class="hover-link">GitHub</a></li>
+                <li><a href="https://auth.geeksforgeeks.org/user/ashfueznr" target="blank" class="hover-link">GeeksforGeeks</a></li>
+                <li><a href="https://linkedin.com/in/ashfaquealam154" target="blank" class="hover-link">Linkedin</a></li>
+                <li><a href="https://instagram.com/ashfu_003" target="blank" class="hover-link">Instagram</a></li>
+                <li><a href=" https://www.youtube.com/channel/UCwZMay-vdgm8aoZyq_p324A" target="blank" class="hover-link">Youtube</a></li>
+            </ul>
+            
         </div>
     </footer>
 

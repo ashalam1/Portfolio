@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: rgb(201, 199, 204);
     font-family: 'Poppins', sans-serif;
 }
 
@@ -17,16 +17,17 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .hover-links {
-    color: black;
+    color: rgb(201, 199, 204);
     transition: .2s ease-out;
 }
 
 .hover-links:hover {
-    color: rgb(175, 174, 175);
-    text-decoration: underline;
+    color: white;
+    text-decoration: none;
 }
 
 .purple {
@@ -37,15 +38,22 @@ a {
 /*----------------------Navbar----------------*/
 
 .container {
-    background-color: white;
-    padding-left: 40px;
-    padding-right: 50px;
+    background-color:rgb(24, 23, 23);
+    padding-left: 30px;
+    padding-right: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.tag {
+font-size: 1.4rem;
+}
+.colon{
+    padding-left: 15px;
+    font-size: 1.8rem;
 }
 
 .main-nav {
-    justify-content: space-between;
-    position: sticky;
+    justify-content: start;
+    position: fixed;
     overflow: hidden;
 }
 
@@ -54,88 +62,81 @@ a {
     display: flex;
     gap: 40px;
     justify-content: end;
-    font-size: 20px;
 }
 
 .nav-link {
     padding: 20px;
 }
-
-.logo img {
-    height: 40px;
-    width: 50px;
-    margin: 2px 3px;
+.right-box{
+    margin-left: 500px;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
 }
-
+.right-box img{
+    display: flex;
+    filter: invert(100%);
+    align-items: center;
+    width: 1rem;
+    padding: 5px;
+}
+.right-box:hover {
+    background-color: rgb(201, 199, 204);
+}
 /*---------------------header-section----------------------*/
 .header-section {
     justify-content: space-between;
-    background-color: white;
+    background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px 0;
-    margin-left: 30px;
+    padding: 30px 0;
+    margin-left: 10px;
 }
 
 .left-section {
-    color: black;
-    width: 600px;
-    font-size: 2.4rem;
+    color: rgb(201, 199, 204);
+    width: 40%;
+    font-size: 1.8rem;
     padding-left: 10px;
     margin-left: 50px;
-    justify-content: center;
+    justify-content: start;
 }
 
 
 .name {
+    color: white;
     text-align: start;
-    margin-top: 10px;
 }
 
 .about p {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 12px;
+    font-size: 1rem;
 }
 
 .heading {
     text-align: center;
-    margin-block: 30px;
-    font-size: 1.5rem;
+    margin-block: 20px;
+    font-size: 1.4rem;
 }
 
 .primary-button {
-    background-color: #000000;
+    background-color: #04AA6D;
     border: 0.1px solid black;
     color: white;
     font-size: 1rem;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .primary-button:hover {
-    background-color: white;
+    background-color: rgb(51, 204, 138);
     border: 0.1px solid black;
-    color: black;
+    color:white;
     font-size: 1rem;
     padding: 10px;
-    border-radius: 20px;
-}
-
-.secondary-button {
-    border: 0.5px solid black;
-    color: black;
-    font-size: 1rem;
-    padding: 10px;
-    border-radius: 20px;
-}
-
-.secondary-button:hover {
-    background-color: #000000;
-    color: white;
-    font-size: 1rem;
-    padding: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .bold-heading {
@@ -144,7 +145,7 @@ a {
 }
 
 .btn {
-    justify-content: center;
+    justify-content: start;
     gap: 50px;
     margin-top: 20px;
 }
@@ -154,22 +155,46 @@ a {
     width: 400px;
     padding-top: 30px;
     padding-right: 15px;
-    padding-left: 20px;
-}
-
-/* #element {
-    color: purple;
-} */
-
-/*------------------- portfolio section------------------*/
-
-
-.card-container {
     justify-content: center;
-    margin: 20px;
-
+    margin-right: 60px;
 }
 
+/*----------------------------------prject-section--------------------------------- */
+.project-section{
+    justify-content: center;
+    text-align: center;
+}
+.project-section img{
+    width: 40px;
+    filter: invert(80%);
+}
+.project{
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.project-box h4{
+    color:rgb(51, 204, 138); ;
+    text-align: center;
+    padding-bottom:10px ;
+}
+.project-box h3{
+    color: white;
+    text-align:center;
+    padding-bottom:10px ;
+}
+.project-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 10px;
+    border: 4px solid rgb(78, 71, 86);
+    width: 40%;
+}
 .card img {
     border-radius: 50%;
     height: 300px;
@@ -191,20 +216,6 @@ a {
     margin-top: 15px;
     padding: 20px;
 }
-
-/* ----------------------fun-section------------------- */
-.fun {
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    gap: 10px;
-    /* background-color: rgb(201, 199, 204); */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 100px;
-    margin-top: 150px;
-    padding: 30px 0;
-}
-
 .placeholder {
     border-radius: 20px;
     text-align: center;
@@ -221,11 +232,33 @@ a {
 .skills {
     margin: 70px 0;
     text-align: center;
-    padding: 20px 0;
+}
+.skills img{
+    width: 40px;
+    filter: invert(80%);
+}
+.skill-section {
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.skill-section {
-    justify-content: space-around;
+.skill{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:start;
+    width: 40%;
+    padding: 5px;
+    padding-left: 15px ;
+    margin: 10px;
+    background-color:rgb(44, 56, 74);
+
+}
+.skill img{
+    margin-top:    10px;
+    margin-right: 10px;
+    width: 25px;
+    filter: invert(36%) sepia(51%) saturate(2570%) hue-rotate(137deg) brightness(100%) contrast(97%);
 }
 
 /* ---------------------education-section-------------------- */
@@ -234,12 +267,18 @@ a {
     text-align: center;
     flex-direction: column;
     width: 50%;
+    border: 4px solid rgb(78, 71, 86);
+    padding: 20px;
 }
 
 .edu {
     font-size: 1.6rem;
     flex-direction: column;
     justify-content: center;
+}
+.edu img{
+    width: 40px;
+    filter: invert(80%);
 }
 
 .edu p {
@@ -249,18 +288,25 @@ a {
 /*---------------------contact-section---------------------*/
 .contact {
     margin: 100px;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.contact img{
+    width: 40px;
+    filter: invert(80%);
+}
 .contacts {
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .contacts img{
+    filter: invert(100%);
     width: 80px;
 }
 .card2-container {
     flex-direction: column;
     justify-content: space-evenly;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 4px solid rgb(78, 71, 86);
     width: 280px;
     height: 300px;
 }
@@ -270,34 +316,50 @@ a {
 }
 
 .contact-form {
-    margin-top: 80px;
+    margin-top: 60px;
+    justify-content: space-between;
 }
 
-.contact-form img {
-    background-color: rgb(201, 199, 204);
-    width: 80%;
+.form p{
+    justify-content: start;
 }
-
 .form {
     flex-direction: column;
-    width: 50%;
+    padding-top: 50px;
+    width: 40%;
     gap: 20px;
 }
-
-.contact-img {
-    width: 50%;
-}
-
 #form-placeholder {
     padding: 5px;
     width: 553px;
 }
 
 /*---------------------------footer----------------------- */
-.footer {
+.footer-main {
     text-align: center;
+    justify-content: center;
     padding: 10px 0;
-    background-color: rgb(201, 199, 204);
+    background-color:rgb(24, 23, 23);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.hover-link {
+    color: rgb(201, 199, 204);
+    transition: .2s ease-out;
+}
+
+.hover-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-main ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
 }
 
 /* ---------------Game.html */

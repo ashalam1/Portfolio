@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mediaQ.css">
     <script src="https://kit.fontawesome.com/2936b5a973.js" crossorigin="anonymous"></script>
     <title>Ashfaque</title>
     <style>
@@ -14,7 +15,7 @@
 
 <body>
     <nav id="nav">
-        <div class="container main-nav flex">
+        <div class=" main-nav flex">
             <div class="tag flex"><a href="#header-section">Ashfaque Alam</a></div>
             <div class="colon flex">|</div>
             <div class="nav-link flex">
@@ -23,10 +24,10 @@
                     <li><a href="#skills" class="hover-links">Skills</a></li>
                     <li><a href="#portfolio" class="hover-links">Portfolio</a></li>
                     <li><a href="#contact" class="hover-links">Contact</a></li>
+                    <a href="#contact-form" class="right-box"> Let's talk <img src="images/right-arrow-icon.png" alt=""></a>
                 </ul>
+               
             </div>
-            <a href="#contact-form" class="right-box"> Let's talk <img src="images/right-arrow-icon.png" alt=""></a>
- 
         </div>
         
     </nav>
@@ -103,7 +104,7 @@
         </div>
         <div class="card-container flex">
             <div class="card flex">
-                <div class="card-round"><img src="images/Screenshot 2023-07-26 150225.jpg" alt=""></div>
+            <img src="images/Screenshot 2023-07-26 150225.jpg" alt="">
                 <h3>Clone Website</h3>
                 <p>Usability Clone Website written in HTML, CSS, JS</p>
                 <a href="https://ashalam1.github.io/UsabilityHub-Clone/" target="_blank" rel="noopener noreferrer"
@@ -111,14 +112,14 @@
             </div>
 
             <div class="card flex">
-                <div class="card-round"><img src="images/Rock-Paper-Scissors-game-1.png" alt=""></div>
+                <img src="images/Rock-Paper-Scissors-game-1.png" alt="">
                 <h3>Rock Paper Scissor</h3>
                 <p>Rock,paper&scissor game written in HTML, CSS, JS</p>
                 <a href="game.html" target="_blank" rel="noopener noreferrer"  class="primary-button">Try it out</a>
 
             </div>
             <div class="card flex">
-                <div class="card-round"><img src="images/Screenshot 2023-07-27 104814.jpg" alt=""></div>
+            <img src="images/Screenshot 2023-07-27 104814.jpg" alt="">
                 <h3>GitHub</h3>
                 <p>Take a look at my other projects on GitHub</p>
                 <a href="https://github.com/ashalam1" target="_blank" rel="noopener noreferrer" class="primary-button">Go to my
@@ -139,7 +140,7 @@
         <div class="skill-section flex">
             <div class="skill ">
                 <img src="images/assets (6)/asset 4.svg" alt="">
-                C
+                    C
             </div>
 
             <div class="skill ">
@@ -237,14 +238,14 @@
 
             
 <div class="contact-form flex" id="contact-form">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31113.519926899844!2d77.6206220101186!3d12.895501624933344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14bc1f875dd5%3A0x2b126387f21954a7!2sGarvebhavi%20Palya%2C%20Bengaluru%2C%20Karnataka%20560068!5e0!3m2!1sen!2sin!4v1700231426045!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31113.519926899844!2d77.6206220101186!3d12.895501624933344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14bc1f875dd5%3A0x2b126387f21954a7!2sGarvebhavi%20Palya%2C%20Bengaluru%2C%20Karnataka%20560068!5e0!3m2!1sen!2sin!4v1700231426045!5m2!1sen!2sin" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
     <form action="https://formsubmit.co/f63636695c3c325136997e30478177c1" method="POST" class="form flex">
         <h2>Say what you want</h2>
     <p> Looking forward to connecting and collaborating on exciting projects!</p>
         <input type="text" name="name" id="form-placeholder" placeholder="Your Name" required>
         <input type="email" name="email" id="form-placeholder" placeholder="Your Email" required>
-        <textarea name="message" id="" cols="75" rows="7" placeholder="Message"></textarea>
+        <textarea name="message" id="form-placeholder" cols="75" rows="7" placeholder="Message"></textarea>
         <button class="primary-button">Submit</button>
     </form>
     

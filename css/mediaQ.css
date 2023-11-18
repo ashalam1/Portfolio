@@ -29,14 +29,20 @@
     display: flex;
     position: sticky;
     flex-direction: column;
-    /* padding-left: 20px; */
+    gap: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
+.tag {
+    font-size: 1.6rem;
+    /* padding-top: 20px; */
+    }
 .nav-link {
     padding: 0px;
     justify-content: center;
 }
 .nav-link ul{
-    gap: 20px;
+    gap: 30px;
 }
 .colon{
     display: none;
@@ -55,11 +61,13 @@
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
+    gap: 20px;
 }
 .btn {
     justify-content: center;
-    gap: 50px;
     margin-top: 20px;
 }
 
@@ -75,23 +83,37 @@
     margin-right: 0px;
    
 }
+/* ------------------------project--------------------------- */
 
+.project-box{
+    width: 80%;
+}
 /* ------------------------portfolio------------------------- */
 .card-container{
     flex-direction: column;
 }
 .card{
-    width: 100%;
+    width: 80%;
     margin: 0px;
     margin-top: 15px;
-    padding: 0px;
+    padding: 20px;
 }
 .card img {
     border-radius: 50%;
     height: 200px;
     width: 200px;
 }
+/* ----------------------skill---------------------- */
+.skill{
+    width: 80%;
+}
+.education{
+    width: 80%;
+}
 
+.card2-container{
+    width: 80%;
+}
 /* ------------------contact---------------------- */
 .contacts{
     flex-direction: column;
@@ -99,14 +121,16 @@
 }
 .contact-form{
     flex-direction: column;
+    margin: 20px;
 }
 .form p{
     justify-content: start;
 }
 .form {
     flex-direction: column;
+    margin-top: 50px;
     padding-top: 50px;
-    width: 100%;
+    width: 80%;
     gap: 20px;
 }
 .map{
@@ -114,7 +138,7 @@
 }
 #form-placeholder {
     padding: 0px;
-    width: 400px;
+    width: 300px;
     text-align: center;
 }
 }

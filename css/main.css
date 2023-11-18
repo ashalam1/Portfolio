@@ -36,6 +36,7 @@ a {
     font-size: 1rem;
     padding: 10px;
     border-radius: 10px;
+    width: 70%;
 }
 
 .primary-button:hover {
@@ -49,6 +50,7 @@ a {
 /*----------------------Navbar----------------*/
 .tag {
 font-size: 1.4rem;
+padding-left: 30px;
 }
 .colon{
     padding-left: 15px;
@@ -103,17 +105,16 @@ font-size: 1.4rem;
     font-size: 1.8rem;
     padding-left: 10px;
     margin-left: 50px;
-    justify-content: start;
+    justify-content: center;
+    text-align: center;
 }
-
-
 .name {
     color: white;
     text-align: start;
 }
 
 .about p {
-    text-align: justify;
+    text-align: start;
     margin-top: 12px;
     font-size: 1rem;
 }
@@ -128,11 +129,6 @@ font-size: 1.4rem;
     font-style: bold;
 }
 
-.btn {
-    justify-content: start;
-    gap: 50px;
-    margin-top: 20px;
-}
 .right-section{
     margin-top: 60px;
 }
@@ -178,14 +174,14 @@ font-size: 1.4rem;
     padding-top: 40px;
     padding-bottom: 40px;
     margin: 10px;
-    border: 4px solid rgb(78, 71, 86);
+    border: 2px solid rgb(112, 116, 230);
     width: 40%;
 }
 /* -----------------------portfolio------------------ */
 .card img {
     border-radius: 50%;
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
 }
 .card-container{
     flex-wrap: wrap;
@@ -201,6 +197,7 @@ font-size: 1.4rem;
     margin: 20px;
     margin-top: 15px;
     padding: 20px;
+    border: 2px solid rgb(112, 116, 230);
 }
 .placeholder {
     border-radius: 20px;
@@ -253,7 +250,7 @@ font-size: 1.4rem;
     text-align: center;
     flex-direction: column;
     width: 50%;
-    border: 4px solid rgb(78, 71, 86);
+    border: 2px solid rgb(112, 116, 230);
     padding: 20px;
 }
 
@@ -293,7 +290,7 @@ font-size: 1.4rem;
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: 20px;
-    border: 4px solid rgb(78, 71, 86);
+    border: 2px solid rgb(112, 116, 230);
     width: 280px;
     height: 300px;
 }
@@ -312,13 +309,19 @@ font-size: 1.4rem;
 }
 .form {
     flex-direction: column;
-    padding-top: 50px;
-    width: 40%;
+    padding: 20px;
+    width: 45%;
     gap: 20px;
+    border: 2px solid rgb(112, 116, 230);
 }
 #form-placeholder {
     padding: 5px;
-    width: 553px;
+    width: 500px;
+    background-color:rgb(44, 56, 74);
+    color: white;
+}
+.input{
+    box-sizing: border-box;
 }
 
 /*---------------------------footer----------------------- */

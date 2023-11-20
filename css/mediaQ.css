@@ -34,8 +34,8 @@
     padding-bottom: 20px;
 }
 .tag {
-    font-size: 1.6rem;
-    /* padding-top: 20px; */
+    font-size: 2rem;
+    margin-left: 0;
     }
 .nav-link {
     padding: 0px;
@@ -44,8 +44,8 @@
 .nav-link ul{
     gap: 30px;
 }
-.colon{
-    display: none;
+.right-box{
+    margin-right: 0;
 }
 /* ----------------------------header section------------------------------- */
 .header-section{
@@ -57,14 +57,21 @@
 .left-section {
     color: rgb(201, 199, 204);
     width: 100%;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
+    text-align: center;
     gap: 20px;
+}
+.name {
+    text-align: center;
+}
+.about p {
+    text-align: justify;
 }
 .btn {
     justify-content: center;
@@ -111,13 +118,13 @@
     width: 80%;
 }
 
-.card2-container{
-    width: 80%;
-}
+
 /* ------------------contact---------------------- */
 .contacts{
     flex-direction: column;
-
+}
+.card2-container{
+    width: 80%;
 }
 .contact-form{
     flex-direction: column;
@@ -134,11 +141,11 @@
     gap: 20px;
 }
 .map{
-    width: 380px;
+    width: 350px;
 }
-#form-placeholder {
-    padding: 0px;
+input{
     width: 300px;
-    text-align: center;
 }
+textarea{
+    width: 300px;
 }

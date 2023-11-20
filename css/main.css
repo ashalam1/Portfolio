@@ -49,19 +49,17 @@ a {
 }
 /*----------------------Navbar----------------*/
 .tag {
-font-size: 1.4rem;
-padding-left: 30px;
-}
-.colon{
-    padding-left: 15px;
-    font-size: 1.8rem;
+font-size: 1.8rem;
+margin-left: 20px;
 }
 
 .main-nav {
-    justify-content: start;
+    justify-content: space-between;
     position:fixed;
     width: 100%;
     background-color:rgb(24, 23, 23);
+    overflow: hidden;
+    z-index: 1000;
 }
 
 .nav-link ul {
@@ -78,6 +76,7 @@ padding-left: 30px;
 .right-box{
     border-radius: 5px;
     padding: 5px;
+    margin-right: 20px;
     display: flex;
     align-items: center;
 }
@@ -102,7 +101,7 @@ padding-left: 30px;
 .left-section {
     color: rgb(201, 199, 204);
     width: 40%;
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-left: 10px;
     margin-left: 50px;
     justify-content: center;
@@ -225,22 +224,21 @@ padding-left: 30px;
     justify-content: center;
     overflow: hidden;
 }
-
-.skill{
-    flex-direction: column;
-    justify-content: center;
+.skill{ 
+    justify-content: left;
     align-items: center;
-    text-align:start;
+    text-align:left;
     width: 40%;
-    padding: 5px;
+    padding: 18px;
     padding-left: 15px ;
     margin: 10px;
+    gap: 20px;
     background-color:rgb(44, 56, 74);
 
 }
 .skill img{
-    margin-top:    10px;
-    margin-right: 10px;
+    /* margin-top:    10px;
+    margin-right: 10px; */
     width: 25px;
     filter: invert(36%) sepia(51%) saturate(2570%) hue-rotate(137deg) brightness(100%) contrast(97%);
 }
@@ -279,7 +277,8 @@ padding-left: 30px;
     filter: invert(80%);
 }
 .contacts {
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 50px;
 }
 .contacts img{
@@ -288,11 +287,14 @@ padding-left: 30px;
 }
 .card2-container {
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    padding: 15px;
     margin-top: 20px;
     border: 2px solid rgb(112, 116, 230);
-    width: 280px;
-    height: 300px;
+    width: 250px;
+    height: 220px;
 }
 
 .card2-container p {
@@ -300,7 +302,7 @@ padding-left: 30px;
 }
 
 .contact-form {
-    margin-top: 60px;
+    margin-top: 40px;
     justify-content: space-between;
 }
 
@@ -314,16 +316,33 @@ padding-left: 30px;
     gap: 20px;
     border: 2px solid rgb(112, 116, 230);
 }
-#form-placeholder {
-    padding: 5px;
-    width: 500px;
-    background-color:rgb(44, 56, 74);
-    color: white;
-}
-.input{
-    box-sizing: border-box;
-}
+input{
 
+    outline: none;
+    padding: 10px;
+    width: 480px;
+    border-radius: 10px;
+    background-color:rgb(44, 56, 74);
+    border: 1px solid rgb(94, 93, 93); 
+    color: white;
+    transition: .3s;
+}
+textarea{
+    outline: none;
+    padding: 10px;
+    width: 480px;
+    border-radius: 10px;
+    background-color:rgb(44, 56, 74);
+    border: 1px solid rgb(94, 93, 93); 
+    color: white;
+    transition: .3s;
+}
+input:focus {
+    border: 1px solid rgb(112, 116, 230);
+  }
+textarea:focus{
+    border: 1px solid rgb(112, 116, 230);
+}
 /*---------------------------footer----------------------- */
 .footer-main {
     text-align: center;

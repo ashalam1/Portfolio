@@ -61,6 +61,7 @@
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 0px;
+    margin-top: 0%;
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
@@ -148,4 +149,5 @@ input{
 }
 textarea{
     width: 300px;
+}
 }
